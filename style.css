@@ -1,0 +1,130 @@
+	body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images.pexels.com/photos/5466800/pexels-photo-5466800.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    
+}
+
+header {
+    background-color: ;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+a:hover {
+    
+    background-color: #ff6600; /* Change the background color when hovering */
+    color: #333
+}
+.logo img {
+    max-width: 100px;
+    height: 40px;
+}
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: burlywood;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    width: 100%px;
+    height: 20px;
+    border: 1px solid ghostwhite;
+    text-decoration: none;
+    color: #fff;
+}
+box{
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+#container{
+
+     display:flex ;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(black);
+}
+
+.calculator{
+
+    width: 25%;
+    height: 70vh;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 16px;
+    background:;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+    background-color: black;
+
+
+   
+}
+
+input{
+    width: 220px;
+    border: none;  
+    padding: 24px;
+    margin: 10px;
+    background: ;
+    box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.3);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color:black;
+}
+
+input::placeholder{
+    color: black;
+    background-color:ghostwhite;
+}
+
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    background-color: burlywood;
+    color: black;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+button:hover{
+    background-color: burlywood;
+}
+
+.equalBtn{
+    background-color: darkred;
+}
+
+.operator{
+    color: red;
+    background-color: darkred;
+}
